@@ -9710,3 +9710,41 @@ a.text-dark:hover, a.text-dark:focus {
     transform: translateY(-15px);
   }
 }
+/* ++++++++++ */
+.custom-control {
+  background-color: rgba(0, 0, 0, 0.7); /* Nền màu đen bán trong suốt */
+  border-radius: 50%; /* Để nút có hình tròn */
+  width: 50px; /* Độ rộng nút */
+  height: 50px; /* Chiều cao nút */
+  display: flex; /* Để căn giữa nội dung */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  z-index: 10; /* Đảm bảo nút nằm trên các thành phần khác */
+}
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%; /* Đặt vị trí dọc của nút ở giữa */
+  transform: translateY(-50%); /* Điều chỉnh lại vị trí cho chính giữa */
+}
+
+.carousel-control-prev {
+  left: 10px; /* Đặt khoảng cách từ bên trái */
+}
+
+.carousel-control-next {
+  right: 10px; /* Đặt khoảng cách từ bên phải */
+}
+.hieu{
+  background-color: #d39e00; /* Màu nền (có thể thay đổi theo ý bạn) */
+  padding: 20px; /* Khoảng cách bên trong */
+  border-radius: 10px; /* Bo góc cho nền */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho nổi bật hơn */
+}
+
+
+
+
+
+
+
+
